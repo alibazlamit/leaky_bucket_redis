@@ -1,7 +1,7 @@
 # Leaky Bucket Redis (Distributed)
 
 ## Overview
-The `leaky_bucket_redis.go` is a leaky bucket implementation in Go that utilizes Redis's Lua script. It is designed to work well with distributed systems, providing atomic operations for managing rate limiting and throttling.
+The `leaky_bucket_redis.go` is a leaky bucket implementation in Go that utilizes Redis's Lua script. It is designed to work well with distributed systems, managing rate limiting and throttling.
 
 ## Installation
 To use the `leaky_bucket_redis.go` in your Go project, you need to have Redis installed and running. You can install Redis by following the instructions provided in the official Redis documentation.
